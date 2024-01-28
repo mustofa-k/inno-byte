@@ -1,0 +1,13 @@
+
+.h1 {
+  width: 75%;
+  margin-top: 30%;
+}
+
+@media (max-width: 768px) {
+  .h1 {
+    width: 100%; /* Adjust the width as needed */
+    margin-top: 10%; /* Adjust the margin-top as needed */
+    font-size: 1.5em; /* Adjust the font size for mobile */
+  }
+}
