@@ -36,7 +36,7 @@ function Home() {
               Learn More
             </button>
           </Col>
-          <Col lg={6} sm={6}>
+          <Col lg={6} sm={6} style={{marginTop:"5%"}}>
             <Image
               src={homeicon}
               style={{ maxWidth: "100%", maxHeight: "100%" }}
