@@ -1,18 +1,24 @@
-.custom-navbar {
-  /* Add your other styles here */
 
-  /* Set initial shadow styles */
-  box-shadow: none;
-  transition: box-shadow 0.3s ease-in-out;
+
+  
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  background-color:#24c6dc; 
+  color: #fff; 
+  border-radius: 5px; 
+  border: none; 
+  cursor: pointer;
 }
 
-.custom-navbar.with-shadow {
-  /* Add shadow styles when the menu is open */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+
+.button:hover {
+  background-color: #2980b9; /* Set hover background color */
 }
 
 
-.nav-link-spacing {
-  margin-right: 10px;
-}
 
