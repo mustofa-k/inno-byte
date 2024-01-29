@@ -32,3 +32,11 @@ letter-spacing: 0em;
 text-align: center;
 
 }
+
+
+@media only screen and (max-width: 600px) {
+  .services {
+    height: auto; 
+  }
+}
+
