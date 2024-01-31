@@ -1,31 +1,32 @@
 .logo {
-    width: 150px;
-    height: 40px;
-   
-  }
-  
-  .button {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
-    text-align: center;
-    text-decoration: none;
-    background-color:#24c6dc; 
-    color: #fff; 
-    border-radius: 5px; 
-    border: none; 
-    cursor: pointer;
-  }
+  width: 150px;
+  height: 40px;
+}
 
-  .h1 {
-    width: 75%;
-    margin-top: 30%;
-  }
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #24c6dc;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
 
-  .button:hover {
-    background-color: #2980b9; /* Set hover background color */
-  }
-  
-  
-  
-  
+.h1 {
+  width: 75%;
+  margin-top: 30%;
+}
+
+.button:hover {
+  background-color: #2980b9; /* Set hover background color */
+}
+
+.harga {
+  font-size: 50px;
+  font-weight: bold;
+  color: #f0ba08;
+}
