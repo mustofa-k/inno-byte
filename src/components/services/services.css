@@ -1,7 +1,6 @@
+/* Common styles for services section */
 .services {
   background-color: #e8f1ff;
-  height: 100vh;
-  margin-top: 100px;
   margin: auto;
 }
 
@@ -17,26 +16,62 @@
 .services .desc {
   font-family: Inter;
   font-size: 16px;
-
   text-align: center;
   width: 500px;
 }
 
-.cart p {
-  
-font-family: Inter;
-font-size: 14px;
-font-weight: 400;
-line-height: 22px;
-letter-spacing: 0em;
-text-align: center;
-
+/* Styles for the cart section */
+.cart {
+  background-color: #ffffff;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
+.cart img {
+  max-width: 100%;
+  height: auto;
+}
 
+.cart h2 {
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.cart p {
+  margin-top: 1rem;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+/* Media query for screens with a maximum width of 600px */
 @media only screen and (max-width: 600px) {
   .services {
-    height: auto; 
+    height: auto;
+    margin-top: 0; /* Remove margin-top on smaller screens */
+  }
+
+  .services .desc {
+    width: 100%; /* Make the description width full on smaller screens */
+  }
+
+  /* Adjust styles for cart on smaller screens */
+  .cart {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .cart h2 {
+    font-size: 1.2rem; /* Adjust font size for heading */
+  }
+
+  .cart p {
+    font-size: 12px; /* Adjust font size for paragraph */
+    line-height: 18px; /* Adjust line height */
   }
 }
-

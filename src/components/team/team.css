@@ -23,6 +23,12 @@
 }
 
 @media (max-width: 991px) {
+  
+  .team{
+    background-color: #e8f1ff;
+    height: 100%;
+  }
+
   .team-member-image {
     max-width: 150px;
     margin-top: 70px;
@@ -38,7 +44,7 @@
 @media (max-width: 767px) {
   .team {
     background-color: #e8f1ff;
-    height: auto;
+    height: 100%;
   }
 
   .team-member-image {
