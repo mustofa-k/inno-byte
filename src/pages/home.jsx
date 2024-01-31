@@ -1,5 +1,4 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { FaWhatsapp } from "react-icons/fa";
 import About from "../components/about/About";
 import Hero from "../components/hero/Hero";
 import Navbars from "../components/navbar/Navbars";
@@ -34,8 +33,8 @@ function Home() {
             alignItems: "center",
           }}
         >
-          <FontAwesomeIcon icon={faWhatsapp} style={{ marginRight: 10 }} />
-          Contact via WhatsApp
+          <FaWhatsapp style={{ marginRight: 10, fontSize: 24 }} /> {/* Mengatur ukuran ikon */}
+          Hubungi Kami di WhatsApp
         </a>
       </div>
     </>

@@ -1,10 +1,5 @@
-// Add these imports at the top of your file
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebook,
-  faTwitter,
-  faInstagram,
-} from "@fortawesome/free-brands-svg-icons";
+import { faFacebook, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 import { Col, Container, Row, Image } from "react-bootstrap";
 import "./team.css";
@@ -34,7 +29,9 @@ function Team() {
                 <FontAwesomeIcon icon={faTwitter} className="social-icon" />
                 <FontAwesomeIcon icon={faInstagram} className="social-icon" />
               </div>
-              <h1 className="pt-2" style={{ fontSize: "20px" }}>Jane Cooper</h1>
+              <h1 className="pt-2" style={{ fontSize: "20px" }}>
+                Jane Cooper
+              </h1>
               <p>Developer</p>
             </div>
           </Col>
@@ -48,7 +45,9 @@ function Team() {
                 <FontAwesomeIcon icon={faTwitter} className="social-icon" />
                 <FontAwesomeIcon icon={faInstagram} className="social-icon" />
               </div>
-              <h1 className="pt-2" style={{ fontSize: "20px" }}>Jane Cooper</h1>
+              <h1 className="pt-2" style={{ fontSize: "20px" }}>
+                Jane Cooper
+              </h1>
               <p>Developer</p>
             </div>
           </Col>
@@ -62,7 +61,9 @@ function Team() {
                 <FontAwesomeIcon icon={faTwitter} className="social-icon" />
                 <FontAwesomeIcon icon={faInstagram} className="social-icon" />
               </div>
-              <h1 className="pt-2" style={{ fontSize: "20px" }}>Jane Cooper</h1>
+              <h1 className="pt-2" style={{ fontSize: "20px" }}>
+                Jane Cooper
+              </h1>
               <p>Developer</p>
             </div>
           </Col>
@@ -76,7 +77,9 @@ function Team() {
                 <FontAwesomeIcon icon={faTwitter} className="social-icon" />
                 <FontAwesomeIcon icon={faInstagram} className="social-icon" />
               </div>
-              <h1 style={{ fontSize: "20px" }} className="pt-2">Jane Cooper</h1>
+              <h1 style={{ fontSize: "20px" }} className="pt-2">
+                Jane Cooper
+              </h1>
               <p>Developer</p>
             </div>
           </Col>
