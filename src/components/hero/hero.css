@@ -16,8 +16,8 @@
   cursor: pointer;
 }
 
-.h1 {
-  width: 75%;
+h1 {
+  width: 100%;
   margin-top: 30%;
 }
 
@@ -26,7 +26,6 @@
 }
 
 .harga {
-  font-size: 50px;
-  font-weight: bold;
   color: #f0ba08;
+  line-height: 60px;
 }
