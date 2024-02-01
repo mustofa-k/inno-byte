@@ -28,4 +28,5 @@ h1 {
 .harga {
   color: #f0ba08;
   line-height: 60px;
+  font-weight: bold;
 }
