@@ -4,6 +4,7 @@ import Hero from "../components/hero/Hero";
 import Navbars from "../components/navbar/Navbars";
 import Services from "../components/services/Services";
 import Team from "../components/team/Team";
+import Project from "../components/project/Project";
 
 function Home() {
   const whatsappMessage = encodeURIComponent("Hallo, saya ingin menggunakan jasa pembuatan website.");
@@ -16,6 +17,7 @@ function Home() {
         <Services />
         <About />
         <Team />
+        <Project/>
       </div>
       <div style={{ position: "fixed", bottom: 20, right: 20, zIndex: 999 }}>
         <a
