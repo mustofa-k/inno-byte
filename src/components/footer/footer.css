@@ -1,0 +1,12 @@
+.footer{
+    background-color:#e8f1ff ;
+}
+
+.bold-menu {
+  font-weight: bold;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: inherit; 
+}
