@@ -11,8 +11,11 @@
   margin-right: 10px;
 }
 
+.nav-link-spacing p:hover {
+  color: #24c6dc;
+}
+
 .logo {
   width: 150px;
   height: 40px;
- 
 }

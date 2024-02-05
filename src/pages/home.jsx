@@ -17,7 +17,7 @@ function Home() {
         <Services />
         <About />
         <Team />
-        <Project/>
+        <Project />
       </div>
       <div style={{ position: "fixed", bottom: 20, right: 20, zIndex: 999 }}>
         <a
@@ -36,7 +36,7 @@ function Home() {
           }}
         >
           <FaWhatsapp style={{ marginRight: 10, fontSize: 24 }} /> {/* Mengatur ukuran ikon */}
-          Hubungi Kami di WhatsApp
+          Hubungi Kami
         </a>
       </div>
     </>
