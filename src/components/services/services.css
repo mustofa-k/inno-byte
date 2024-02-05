@@ -1,10 +1,12 @@
 /* services.css */
+
 .services {
   background-color: #e8f1ff;
   margin: auto;
   margin-top: 50px;
   padding-top: 20px;
   min-height: 100vh;
+  background-size: cover; /* Add this line to make the background cover the container */
 }
 
 .services .header {
@@ -56,6 +58,7 @@
     margin-top: 30px;
     padding-top: 20px;
     height: auto;
+    background-size: contain; /* Change background size for smaller screens */
   }
 
   .img-services {
@@ -63,25 +66,25 @@
     height: 60px;
   }
 
-  .cart{
+  .cart {
     margin-top: 10px;
-    height:30vh;
+    height: 30vh;
   }
 
-  .img-services{
+  .img-services {
     margin-top: 50px;
   }
 
-  .header{
+  .header {
     margin-top: 50px;
   }
-
 }
 
 @media only screen and (max-width: 599px) {
   .services {
     margin-top: 30px;
     padding-top: 20px;
+    background-size: contain; /* Change background size for smaller screens */
   }
 
   .img-services {
@@ -89,16 +92,16 @@
     height: 60px;
   }
 
-  .cart{
+  .cart {
     margin-top: 10px;
     height: auto;
   }
 
-  .img-services{
+  .img-services {
     margin-top: 50px;
   }
 
-  .header{
+  .header {
     margin-top: 50px;
   }
 }
