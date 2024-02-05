@@ -18,7 +18,7 @@ function Team() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
           Diam vivamus pretium maecenas amet.
         </p>
-        <Row>
+        <Row className="c">
           <Col lg="3" md="6" sm="12" xs="12">
             <Image src={seo} fluid className="team-member-image" />
             <div className="hello">
