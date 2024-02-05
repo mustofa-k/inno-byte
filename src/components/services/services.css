@@ -1,5 +1,4 @@
 /* services.css */
-
 .services {
   background-color: #e8f1ff;
   margin: auto;
@@ -15,7 +14,7 @@
 
 .cart {
   background-color: #ffffff;
-  height: 40vh; /* Adjust the percentage as needed */
+  height: 370px;
 }
 
 .cart .title {
@@ -61,11 +60,11 @@
   .img-services {
     width: 60px;
     height: 60px;
-    padding: 8px; /* Adjust the padding as needed */
   }
 
-  .cart {
+  .cart{
     margin-top: 10px;
-    height: 30vh; /* Adjust the percentage as needed */
+    height:50vh;
   }
+
 }
