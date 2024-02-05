@@ -66,6 +66,11 @@
 
   .cart {
     margin-top: 10px;
-    height: 30vh; /* Adjust the percentage as needed */
+    height: auto;
+  }
+
+  .cart .title,
+  .cart .desc {
+    text-align: left;
   }
 }
