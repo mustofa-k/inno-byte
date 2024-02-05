@@ -51,10 +51,11 @@
   height: auto;
 }
 
-@media (max-width: 992px) {
+@media only screen and (max-width: 992px) {
   .services {
     margin-top: 30px;
     padding-top: 20px;
+    height: auto;
   }
 
   .img-services {
@@ -75,4 +76,29 @@
     margin-top: 50px;
   }
 
+}
+
+@media only screen and (max-width: 599px) {
+  .services {
+    margin-top: 30px;
+    padding-top: 20px;
+  }
+
+  .img-services {
+    width: 60px;
+    height: 60px;
+  }
+
+  .cart{
+    margin-top: 10px;
+    height: auto;
+  }
+
+  .img-services{
+    margin-top: 50px;
+  }
+
+  .header{
+    margin-top: 50px;
+  }
 }
