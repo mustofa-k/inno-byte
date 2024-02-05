@@ -52,7 +52,12 @@
   height: auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
+  /* Adjust the min-height for tablets */
+  .services {
+    min-height: 80vh; /* You can adjust the value based on your design preferences */
+  }
+
   .services .header {
     font-size: 24px;
   }
