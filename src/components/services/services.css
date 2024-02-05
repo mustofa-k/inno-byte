@@ -1,12 +1,12 @@
-/* services.css */
+
 
 .services {
   background-color: #e8f1ff;
   margin: auto;
   margin-top: 50px;
   padding-top: 20px;
-  min-height: 100vh;
-  background-size: cover; /* Add this line to make the background cover the container */
+  height: 100vh;
+  background-size: cover; 
 }
 
 .services .header {
@@ -58,7 +58,7 @@
     margin-top: 30px;
     padding-top: 20px;
     height: auto;
-    background-size: contain; /* Change background size for smaller screens */
+    background-size: contain; 
   }
 
   .img-services {
@@ -84,7 +84,7 @@
   .services {
     margin-top: 30px;
     padding-top: 20px;
-    background-size: contain; /* Change background size for smaller screens */
+    background-size: contain; 
   }
 
   .img-services {
