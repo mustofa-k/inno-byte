@@ -8,7 +8,7 @@ import layanan from "../../assets/layanan.png";
 function Services() {
   return (
     <div>
-      <div className="services container-fluid pb-5">
+      <div className="services pb-5">
         <div className="content container text-center mt-5">
           <div className="header">
             Mengapa Harus Membuat Website di Inno-byte solution?
