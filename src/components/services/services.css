@@ -52,7 +52,6 @@
   height: auto;
 }
 
-/* Media Queries for Responsive Design */
 @media (max-width: 768px) {
   .services .header {
     font-size: 24px;

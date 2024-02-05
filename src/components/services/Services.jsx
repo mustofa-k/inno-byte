@@ -37,7 +37,7 @@ function Services() {
               </div>
             </Col>
             <Col md={6} lg={3}>
-              <div className="cart bg-white text-center p-2">
+              <div className="cart bg-white text-center p-2 mt-3">
                 <div className="d-flex justify-content-center">
                   <div className="img-services mt-4">
                     <img src={templates} alt="" />
@@ -48,7 +48,7 @@ function Services() {
               </div>
             </Col>
             <Col md={6} lg={3}>
-              <div className="cart bg-white text-center p-2">
+              <div className="cart bg-white text-center p-2 mt-3">
                 <div className="d-flex justify-content-center">
                   <div className="img-services mt-4">
                     <img src={layanan} alt="" />
